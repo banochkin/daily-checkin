@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "Making daily contribution"
           echo "$(date)" >> dates.md
-          echo "––––––" >> dates.md
+          echo "" >> dates.md
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
